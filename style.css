@@ -1,0 +1,132 @@
+/* Set default font family and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  /* Style the music player container */
+  .music-player {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Style the player controls */
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .controls button {
+    background-color: #eee;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    width: 45%;
+    margin-bottom: 5px;
+  }
+  
+  .controls button:last-child {
+    margin-left: 5%;
+    width: 50%;
+  }
+  
+  .controls .play-pause-button {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .controls .play-pause-button:hover {
+    background-color: #388e3c;
+  }
+  
+  .controls .shuffle-button {
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  
+  .controls .shuffle-button:hover {
+    background-color: #222;
+  }
+  
+  .controls input[type="range"] {
+    width: 80%;
+    background-color: #eee;
+  }
+  
+  .controls input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #4caf50;
+    cursor: pointer;
+  }
+  
+  .controls input[type="range"]::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #4caf50;
+    cursor: pointer;
+  }
+  
+  /* Style the progress bar */
+  .progress {
+    background-color: #eee;
+    border-radius: 5px;
+    height: 10px;
+    margin: 0 auto;
+    width: 80%;
+  }
+  
+  .progress .bar {
+    background-color: #4caf50;
+    border-radius: 5px;
+    height: 100%;
+    transition: width 0.1s linear;
+  }
+  
+  /* Style the track list */
+  .track-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .track-list li {
+    cursor: pointer;
+    padding: 10px;
+    transition: background-color 0.1s linear;
+  }
+  
+  .track-list li:hover {
+    background-color: #eee;
+  }
+  
+  /* Media queries */
+  @media (min-width: 768px) {
+    /* Larger screens */
+    .music-player {
+      max-width: 600px;
+    }
+  
+    .controls button {
+      width: auto;
+      margin-right: 5px;
+    }
+  
+    .controls button:last-child {
+      margin-left: auto;
+    }
+  }
+  

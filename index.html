@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Music Player</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="music-player">
+    <h1>Music Player</h1>
+    <audio id="audio-player" src=""></audio>
+    <div class="controls">
+      <button id="previous-button">Previous</button>
+      <button id="play-button">Play</button>
+      <button id="stop-button">Stop</button>
+      <button id="next-button">Next</button>
+      <input type="range" id="seek-slider" min="0" max="100" value="0">
+      <div id="time-info">
+        <span id="current-time">0:00</span> / <span id="total-time">0:00</span>
+      </div>
+      <input type="range" id="volume-slider" min="0" max="100" value="100">
+      <button id="shuffle-button">Shuffle</button>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Title</th>
+          <th>Artist</th>
+          <th>Album</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td><a href="music/Lost Angels (From Swaecation).mp3">Lost Angels</a></td>
+          <td>Rae Sremmurda & Swae Lee</td>
+          <td>Swaecation</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td><a href="music/Fetty Wap - Rewind feat. Monty (HQ).mp3">Rewind</a></td>
+          <td>Fetty Wap</td>
+          <td>Fetty Wap (Deluxe)</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td><a href="music/Lil Uzi Vert - The Way Life Goes [Official Visualizer].mp3">The Way Life Goes</a></td>
+          <td>Lil Uzi Vert & Oh Wonder</td>
+          <td>Luv Is Rage 2</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td><a href="music/Wiz Khalifa - The Thrill [Official Audio].mp3">The Thrill</a></td>
+          <td>Wiz Khalifa</td>
+          <td>The Thrill</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td><a href="music/What About Me.mp3">What About Me?</a></td>
+          <td>Lil Wayne</td>
+          <td>Tha Carter V</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td><a href="music/Bedtime Stories.mp3">Bedtime Stories</a></td>
+            <td>Rae Sremmurda & The Weeknd</td>
+            <td>Swaecation</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td><a href="music/Calvin Harris - Feels (Official Video) ft. Pharrell Williams, Katy Perry, Big Sean.mp3">Feels</a></td>
+            <td>Calvin Harris, Pharrell Williams, Katy Perry, & Big Sean</td>
+            <td>Funk Wav Bounces Vol. 1</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td><a href="music/Lil_Uzi_Demon_High.mp3">Demon High</a></td>
+            <td>Lil Uzi Vert</td>
+            <td>Demon High</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td><a href="music/Post Malone, The Weeknd - One Right Now (Audio).mp3">One Right Now</a></td>
+            <td>Post Malone & The Weeknd</td>
+            <td>One Right Now</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td><a href="music/Power Trip.mp3">Power Trip</a></td>
+            <td>J Cole</td>
+            <td>Born Sinner</td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td><a href="music/Rae Sremmurd, Swae Lee, Slim Jxmmi - Powerglide (Audio) ft. Juicy J.mp3">Powerglide</a></td>
+            <td>Rae Sremmurda, Juicy J & Swae Lee</td>
+            <td>Swaecation</td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td><a href="music/Rae Sremmurd, Swae Lee, Slim Jxmmi - CLOSE (Audio) ft. Travis Scott.mp3">CLOSE</a></td>
+            <td>Rae Sremmurda, Swae Lee, & Travis Scott</td>
+            <td>Swaecation</td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td><a href="music/These Worries.mp3">These Worries</a></td>
+            <td>Kid Cudi</td>
+            <td>Man On The Moon II: The Legend of Mr. Rager</td>
+          </tr>
+          <tr>
+            <td>14</td>
+            <td><a href="music/Young Franco - Fallin' Apart (Visualiser) ft. Denzel Curry, Pell.mp3">Fallin' Apart</a></td>
+            <td>Young Franco Ft. Denzel Curry</td>
+            <td>Fallin' Apart</td>
+          </tr>
+      </tbody>
+    </table>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>

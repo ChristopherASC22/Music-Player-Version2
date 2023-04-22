@@ -97,6 +97,108 @@ const tracks = [
     album: "Fallin' Apart",
     src: "music/Young Franco - Fallin' Apart (Visualiser) ft. Denzel Curry, Pell.mp3"
   },
+  {
+    title: "I Won't",
+    artist: "AJR",
+    album: "I Won't",
+    src: "music/AJR - I Won't (Official Video).mp3"
+  },
+  {
+    title: "21",
+    artist: "AREA 21",
+    album: "Greatest Hits Vol. 1",
+    src: "music/AREA21 - 21.mp3"
+  },
+  {
+    title: "Close To You",
+    artist: "Dayglow",
+    album: "Harmony House",
+    src: "music/Dayglow - Close to You (Official Video).mp3"
+  },
+  {
+    title: "Relationship",
+    artist: "Young Thug Ft. Future",
+    album: "Beautiful Thugger Girls",
+    src: "music/Young Thug - Relationship (feat. Future) [Official Music Video].mp3"
+  },
+  {
+    title: "Hold You Down",
+    artist: "DJ Dhaled, Chris Brown, August Alsina, Future, & Jeremih",
+    album: "I Changed A Lot",
+    src: "music/Hold You Down.mp3"
+  },
+  {
+    title: "LA CANCION",
+    artist: "J Balvin & Bad Bunny",
+    album: "OASIS",
+    src: "music/J Balvin, Bad Bunny - LA CANCIÓN (Audio).mp3"
+  },
+  {
+    title: "Gold Slugs",
+    artist: "DJ Khaled, Chris Brown, August Alsina, & Fetty Wap",
+    album: "I Changed A Lot",
+    src: "music/DJ Khaled - Gold Slugs (Audio) ft. Chris Brown, August Alsina, Fetty Wap.mp3"
+  },
+  {
+    title: "Bang Bang",
+    artist: "K'naan Ft. Adam Levine",
+    album: "Troubadour",
+    src: "music/K'naan, Ft. Adam Levine-Bang Bang (Lyrics Video).mp3"
+  },
+  {
+    title: "I'm so Blessed",
+    artist: "DJ Khaled, Big Sean, Wiz Khalifa, Ace Hood, T-Pain",
+    album: "Kiss The Ring",
+    src: "music/I'm So Blessed.mp3"
+  },
+  {
+    title: "Surfin'",
+    artist: "Kid Cudi Ft. Pharrell Williams",
+    album: "The Boy Who Flew To The Moon Vol. 1",
+    src: "music/Kid Cudi - Surfin' ft. Pharrell Williams.mp3"
+  },
+  {
+    title: "Cooler Than Me",
+    artist: "Mike Posner",
+    album: "A Letter To My Younger Self",
+    src: "music/Mike Posner - Cooler Than Me (Lyrics).mp3"
+  },
+  {
+    title: "Am I High Rn",
+    artist: "Quinn XCII Ft. blackbear",
+    album: "Beautiful Thugger Girls",
+    src: "music/Quinn XCII - Am I High Rn (feat. blackbear) (Official Lyric Video).mp3"
+  },
+  {
+    title: "Rose Golden",
+    artist: "Kid Cudi & WILLOW",
+    album: "Passion, Pain, & Demon Slayin'",
+    src: "music/Rose Golden.mp3"
+  },
+  {
+    title: "Black & Gold",
+    artist: "Sam Sparro",
+    album: "Black & Gold",
+    src: "music/Sam Sparro - Black and Gold.mp3"
+  },
+  {
+    title: "Solo Dolo Part II",
+    artist: "Kid Cudi & Kendrick Lamar",
+    album: "Indicud",
+    src: "music/Solo Dolo Part II (Explicit).mp3"
+  },
+  {
+    title: "Borderline",
+    artist: "Tame Impala",
+    album: "The Slow Rush",
+    src: "music/Tame Impala - Borderline (Official Audio).mp3"
+  },
+  {
+    title: "Sleepwalking",
+    artist: "The Chain Gang of 1974",
+    album: "The Music of Grand Theft Auto V, Vol. 1",
+    src: "music/The Chain Gang of 1974 - Sleepwalking.mp3"
+  },
 ];
 
 function loadTrack(index) {

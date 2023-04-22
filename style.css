@@ -130,3 +130,8 @@ body {
     }
   }
   
+  footer{
+    color: red;
+    font-weight: bolder;
+    font-size: larger;
+  }
